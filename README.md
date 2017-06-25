@@ -36,4 +36,5 @@ sources à traiter:
    * http://kedei.net/raspberry/raspberry.html
    * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
 * précédent howto avec LCD_show_v5
+   NDLR: on dirait que le tgz a été rappatrié sur github car le server kedei.net est lent de chez lent..
    * https://github.com/jgamblin/OsoYooTFT 
