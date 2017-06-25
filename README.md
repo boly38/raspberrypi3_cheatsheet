@@ -6,6 +6,10 @@ note sur les commandes liées à l'installation de mon raspberry pi 3
 
 # premier démarrage
 
+Au premier démarrage je pensais naïvement avoir linux accessible sur mon écran LCD au premier boot, mais non rien sur la carte SD.
+Heureusement, l'adaptateur SD => micro SD est fournit.
+
+
 ## formattage SDCard
 
 source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
@@ -13,13 +17,17 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 * copier sur la carte les fichiers décompressés de NOOBS_v2_4_1 (récupéré sur https://www.raspberrypi.org/downloads/noobs/ )
 * premier démarrage, paramétrage du wifi et installation de l'OS (en cliquant sur l'onglet install)
 
-* vérifier que le système est à jour
+## aptitude update
+
+* vous pouvez toujours vérifier que le système est à jour
 
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get dist-upgrade
     sudo apt-get install raspberrypi-ui-mods
     sudo apt-get install raspberrypi-net-mods
+    
+## mdp et ssh
 
 source: http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/
 * changement des mots de passe root et pi
