@@ -80,8 +80,8 @@ Sources utilisées pour cette section:
 
 ![plug écran KeDei](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193544.jpg "plug écran KeDei")
 
-* récupérer le driver dernière version
-* s'il est sur le pécé vous pouvez le transférer via scp (j'utilise git bash et le port ssh 65530)
+* récupérer le driver dernière version sur http://kedei.net/raspberry/raspberry.html ou le 6.1.3 de ce dépôt.
+* s'il est téléchargé sur le pécé vous pouvez le transférer via scp (j'utilise git bash et le port ssh 65530)
 ```
 scp -P 65530 LCD_show_v6_1_3.tar.gz pi@192.168.0.38:~/
 ``` 
