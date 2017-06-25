@@ -55,6 +55,14 @@ ifconfig
 ```
 * install sshd
 
+## lancer une application graphique depuis le pécé
+* installer Xming ([choisir public domain releases](http://www.straightrunning.com/XmingNotes/))
+* se connecter avec putty avec le X11 forwarding ([exemple](http://jmdefais.pagesperso-orange.fr/techn_jm/robot/robot_pi/putty.htm))
+* test
+```
+xclock&
+```
+
 
 # Ecran KeDei 3.5 inch SPI TFTLCD 480x300 16bit/18bit version 6.3 2016/11/1
 
