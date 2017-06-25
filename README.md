@@ -18,7 +18,7 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 * copier sur la carte les fichiers décompressés de `NOOBS_v2_4_1.zip` (dernière version à récupérer sur https://www.raspberrypi.org/downloads/noobs/ )
 
 ## clavier bluetooth fournit
-![Clavier bluetooth(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_205327.jpg "Clavier bluetooth")
+![Clavier bluetooth](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_205327.jpg "Clavier bluetooth")
 
 * il faut déclipser le compartiment arrière pour accéder aux piles et au dongle USB=>Bluetooth
 * fonctionne avec les 2 piles AAA: la connexion en USB directement ne semble pas fonctionner
@@ -52,9 +52,9 @@ source: http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/
 
 (en cours de rédaction)
 
-![arrière écran KeDei(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193519.jpg "arrière écran KeDei")
+![arrière écran KeDei](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193519.jpg "arrière écran KeDei")
 
-![plug écran KeDei(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193544.jpg "plug écran KeDei")
+![plug écran KeDei](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193544.jpg "plug écran KeDei")
 
 
 sources à traiter:
