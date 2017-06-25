@@ -16,7 +16,19 @@ Au premier démarrage je pensais naïvement avoir linux accessible sur mon écra
 source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 * formatter la carte SD avec l'utilitaire de sdcard.org ([win](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) ou [mac](https://www.sdcard.org/downloads/formatter_4/eula_mac/index.html) )
 * copier sur la carte les fichiers décompressés de `NOOBS_v2_4_1.zip` (dernière version à récupérer sur https://www.raspberrypi.org/downloads/noobs/ )
-* premier démarrage, paramétrage du wifi et installation de l'OS (en cliquant sur l'onglet install en haut...)
+
+## clavier bluetooth fournit
+![Clavier bluetooth(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_205327.jpg "Clavier bluetooth")
+
+* il faut déclipser le compartiment arrière pour accéder aux piles et au dongle USB=>Bluetooth
+* fonctionne avec les 2 piles AAA: la connexion en USB directement ne semble pas fonctionner
+* lorsqu'aucune synchro bluetooth n'a pu se faire le clignotant jaune s'arrête
+
+## installation
+* au premier démarrage, l'écrant permet :
+   * paramétrage du wifi
+   * choix de la langue
+   * installation de l'OS (en cliquant sur l'onglet install en haut...)
 
 ## aptitude update
 
@@ -38,11 +50,16 @@ source: http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/
 
 # Ecran KeDei 3.5 inch SPI TFTLCD 480x300 16bit/18bit version 6.3 2016/11/1
 
-(en cours)
+(en cours de rédaction)
+
+![arrière écran KeDei(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193519.jpg "arrière écran KeDei")
+
+![plug écran KeDei(https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193544.jpg "plug écran KeDei")
+
 
 sources à traiter:
 * driver écran Kedei
-   * http://kedei.net/raspberry/raspberry.html
+   * http://kedei.net/raspberry/raspberry.html (download très très lent)
    * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
 * précédent howto avec LCD_show_v5
    NDLR: on dirait que le tgz a été rappatrié sur github car le server kedei.net est lent de chez lent..
