@@ -33,18 +33,26 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 ## aptitude update
 
 * vous pouvez toujours vérifier que le système est à jour
-
+```
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get dist-upgrade
     sudo apt-get install raspberrypi-ui-mods
     sudo apt-get install raspberrypi-net-mods
-    
+```
+
 ## mdp et ssh
 
 source: http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/
 * changement des mots de passe root et pi
+```
+sudo passwd root
+sudo passwd pi
+```
 * ifconfig pour relever l'ip
+```
+ifconfig
+```
 * install sshd
 
 
