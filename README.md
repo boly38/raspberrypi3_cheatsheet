@@ -66,7 +66,13 @@ xclock&
 
 # Ecran KeDei 3.5 inch SPI TFTLCD 480x300 16bit/18bit version 6.3 2016/11/1
 
-(en cours de rédaction)
+Cette section décrit comment faire fonctionner l'écran LCD KeDei.
+sources utilisées:
+* driver écran Kedei
+   * http://kedei.net/raspberry/raspberry.html (download très très lent)
+   * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
+* précédent howto avec LCD_show_v5 : https://github.com/jgamblin/OsoYooTFT 
+
 
 ![arrière écran KeDei](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_193519.jpg "arrière écran KeDei")
 
@@ -78,10 +84,19 @@ xclock&
 scp -P 65530 LCD_show_v6_1_3.tar.gz pi@192.168.0.38:~/
 ``` 
 
-sources à traiter:
-* driver écran Kedei
-   * http://kedei.net/raspberry/raspberry.html (download très très lent)
-   * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
-* précédent howto avec LCD_show_v5
-   NDLR: on dirait que le tgz a été rapatrié sur github car le server kedei.net est lent de chez lent..
-   * https://github.com/jgamblin/OsoYooTFT 
+* driver
+```
+sudo mkdir /opt/ecranLCD
+sudo mv LCD_show_v6_1_3.tar.gz /opt/ecranLCD/
+cd /opt/ecranLCD/
+sudo tar -xzvf LCD_show_v6_1_3.tar.gz
+cd LCD_show_v6_1_3/
+ ./LCD35_v
+```
+* après reboot vous devriez avoir l'écran LCD.
+* a priori la commande suivante restore le HDMI au besoin (non testé)
+```
+./LCD_restore
+```
+
+
