@@ -1,5 +1,5 @@
 # raspberrypi3_cheatsheet
-note sur les installations du raspberry pi 3
+note sur les commandes liées à l'installation de mon raspberry pi 3
 
 
 
