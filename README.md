@@ -53,7 +53,7 @@ sudo passwd pi
 ```
 ifconfig
 ```
-* install sshd
+* install sshd, [tout y est aussi](http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/#Parametrage-de-la-connexion-SSH)
 
 ## lancer une application graphique depuis le pécé
 * installer Xming ([choisir public domain releases](http://www.straightrunning.com/XmingNotes/))
