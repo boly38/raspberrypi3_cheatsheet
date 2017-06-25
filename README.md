@@ -3,8 +3,6 @@ note sur les commandes liées à l'installation de mon raspberry pi 3
 
 
 
-# sources d'inspiration
-* https://github.com/jgamblin/OsoYooTFT précédent howto avec LCD_show_v5
 
 # premier démarrage
 
@@ -32,8 +30,10 @@ source: http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/
 # Ecran KeDei 3.5 inch SPI TFTLCD 480x300 16bit/18bit version 6.3 2016/11/1
 
 (en cours)
-driver écran Kedei
 
-http://kedei.net/raspberry/raspberry.html
-
-via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
+sources à traiter:
+* driver écran Kedei
+   * http://kedei.net/raspberry/raspberry.html
+   * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
+* précédent howto avec LCD_show_v5
+   * https://github.com/jgamblin/OsoYooTFT 
