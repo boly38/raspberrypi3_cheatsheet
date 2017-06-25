@@ -67,7 +67,9 @@ xclock&
 # Ecran KeDei 3.5 inch SPI TFTLCD 480x300 16bit/18bit version 6.3 2016/11/1
 
 Cette section décrit comment faire fonctionner l'écran LCD KeDei.
-sources utilisées:
+
+
+Sources utilisées pour cette section:
 * driver écran Kedei
    * http://kedei.net/raspberry/raspberry.html (download très très lent)
    * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
