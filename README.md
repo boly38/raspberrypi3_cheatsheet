@@ -17,7 +17,7 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 * formatter la carte SD avec l'utilitaire de sdcard.org ([win](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) ou [mac](https://www.sdcard.org/downloads/formatter_4/eula_mac/index.html) )
 * copier sur la carte les fichiers décompressés de `NOOBS_v2_4_1.zip` (dernière version à récupérer sur https://www.raspberrypi.org/downloads/noobs/ )
 
-## clavier bluetooth fournit
+## clavier bluetooth fourni
 ![Clavier bluetooth](https://raw.githubusercontent.com/boly38/raspberrypi3_cheatsheet/master/IMG_20170625_205327.jpg "Clavier bluetooth")
 
 * il faut déclipser le compartiment arrière pour accéder aux piles et au dongle USB=>Bluetooth
@@ -25,7 +25,7 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 * lorsqu'aucune synchro bluetooth n'a pu se faire le clignotant jaune s'arrête
 
 ## installation
-* au premier démarrage, l'écrant permet :
+* au premier démarrage, l'écran permet :
    * paramétrage du wifi
    * choix de la langue
    * installation de l'OS (en cliquant sur l'onglet install en haut...)
@@ -70,5 +70,5 @@ sources à traiter:
    * http://kedei.net/raspberry/raspberry.html (download très très lent)
    * via post forum http://forums.framboise314.fr/viewtopic.php?t=2972
 * précédent howto avec LCD_show_v5
-   NDLR: on dirait que le tgz a été rappatrié sur github car le server kedei.net est lent de chez lent..
+   NDLR: on dirait que le tgz a été rapatrié sur github car le server kedei.net est lent de chez lent..
    * https://github.com/jgamblin/OsoYooTFT 
