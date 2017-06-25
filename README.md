@@ -13,9 +13,9 @@ Heureusement, l'adaptateur SD => micro SD est fournit.
 ## formattage SDCard
 
 source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
-* formatter la carte SD avec l'utilitaire de sdcard.org
-* copier sur la carte les fichiers décompressés de NOOBS_v2_4_1 (récupéré sur https://www.raspberrypi.org/downloads/noobs/ )
-* premier démarrage, paramétrage du wifi et installation de l'OS (en cliquant sur l'onglet install)
+* formatter la carte SD avec l'utilitaire de sdcard.org ([win](https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html) ou [mac](https://www.sdcard.org/downloads/formatter_4/eula_mac/index.html) )
+* copier sur la carte les fichiers décompressés de `NOOBS_v2_4_1.zip` (dernière version à récupérer sur https://www.raspberrypi.org/downloads/noobs/ )
+* premier démarrage, paramétrage du wifi et installation de l'OS (en cliquant sur l'onglet install en haut...)
 
 ## aptitude update
 
