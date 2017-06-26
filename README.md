@@ -28,8 +28,8 @@ source: https://projetsdiy.fr/decouverte-test-configuration-raspberry-pi-3/
 ## installation
 * au premier démarrage, l'écran permet :
    * paramétrage du wifi
-   * choix de la langue
-   * installation de l'OS (en cliquant sur l'onglet install en haut...)
+   * choix de la langue: j'ai retenu le français mais le clavier US vu que j'ai un qwerty)
+   * installation de l'OS: premier de la liste, en cliquant sur l'onglet install en haut...
 
 ## aptitude update
 
