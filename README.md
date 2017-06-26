@@ -55,6 +55,12 @@ sudo passwd pi
 ifconfig
 ```
 * install sshd, [tout y est aussi](http://www.raspberrypi-france.fr/premiere-utilisation-raspberry-pi/#Parametrage-de-la-connexion-SSH)
+    * via le menu rasp-config il vous faudra activer sshd en service pour l'avoir après reboot.
+```
+sudo vi /etc/ssh/sshd_config
+sudo /etc/init.d/ssh restart
+```
+
 
 ## lancer une application graphique depuis le pécé
 * installer Xming ([choisir public domain releases](http://www.straightrunning.com/XmingNotes/))
