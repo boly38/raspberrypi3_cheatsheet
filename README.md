@@ -8,7 +8,7 @@ Vous pouvez apportez vos idées d'amélioration via les [issues](https://github.
 # premier démarrage
 
 Au premier démarrage je pensais naïvement avoir linux accessible sur mon écran LCD au premier boot, mais non rien sur la carte SD.
-* Heureusement, l'adaptateur SD => micro SD est fournit.
+* Heureusement, l'adaptateur SD => micro SD est fourni.
 * aussin un câble HDM me permet de voir l'UI du rasp sur ma télé en attendant d'avoir le SSH ou l'écran LCD qui fonctionne...
 
 
