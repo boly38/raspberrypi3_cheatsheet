@@ -1,6 +1,7 @@
 # raspberrypi3_cheatsheet
-note sur les commandes liées à l'installation de mon raspberry pi 3
+Note sur les commandes liées à l'installation de mon raspberry pi 3
 
+Vous pouvez apportez vos idées d'amélioration via les [issues](https://github.com/boly38/raspberrypi3_cheatsheet/issues) ou [PR](https://github.com/boly38/raspberrypi3_cheatsheet/pulls)
 
 
 
